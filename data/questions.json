@@ -1,0 +1,45 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "clubs": ["Manchester United", "Real Madrid", "LA Galaxy"],
+      "answers": [
+        "Beckham",
+        "David Beckham",
+        "beckham",
+        "david beckham",
+        "BECKHAM",
+        "DAVID BECKHAM",
+        "david Beckham",
+        "David beckham"
+      ]
+    },
+    {
+      "id": 2,
+      "clubs": ["Manchester United", "Nottingham Forest", "Celtic"],
+      "answers": [
+        "Keane",
+        "Roy Keane",
+        "keane",
+        "roy keane",
+        "KEANE",
+        "ROY KEANE",
+        "ROY kEANE",
+        "rOY KEANE"
+      ]
+    },
+    {
+      "id": 3,
+      "clubs": ["Chelsea", "Everton", "Inter Milan"],
+      "answers": [
+        "Lukaku",
+        "lukaku",
+        "LUKAKU",
+        "Romelu Lukaku",
+        "romelu lukaku",
+        "romelu Lukaku",
+        "Romelu lukaku"
+      ]
+    }
+  ]
+}
