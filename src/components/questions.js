@@ -39,6 +39,14 @@ const Questions = () => {
     )
   }
 
+  if (showGoal) {
+    return <h2>{`GOAL!!! On to Question ${currentQuestion + 1}...`}</h2>
+  }
+
+  if (showConceded) {
+    return <h2>{`Wrong!!! Try Question ${currentQuestion + 1} again ...`}</h2>
+  }
+
   return (
     <>
       <h2>{`Question ${questionsArray[currentQuestion].id}`}</h2>
@@ -60,17 +68,10 @@ const Questions = () => {
         ></input>
         <button
           type="submit"
-          className="block md:w-1/2 font-bold mx-auto mt-8 bg-primary w-full text-white p-4"
+          className="w-full left-0 right-0 absolute bottom-0 block md:w-1/2 font-bold mx-auto mt-8 bg-primary w-full text-white p-4"
         >
-          {showGoal && (
-          <strong>GOOOOOALLLL!!!!</strong>
-        )}
-        {showConceded && (
-          <strong>WRONG!!!!!</strong>
-        )}
-        {!showGoal && !showConceded && "SHOOT"}
+          SHOOT
         </button>
-        
       </form>
     </>
   )
